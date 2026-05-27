@@ -6,4 +6,5 @@ class Shape:
        pass 
 
     def __str__(self):
-       pass
+       return f"Shape: {self.__class__.__name__}, area: {self.get_area():.1f}, perimeter: {self.get_perimeter():.1f}"
+    
