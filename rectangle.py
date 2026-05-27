@@ -2,6 +2,8 @@ from calculator import Shape
 
 class Rectangle(Shape):
     def __init__(self,width,height):
+        super().validation(width,height)
+           
         self.width = width
         self.height = height
 
