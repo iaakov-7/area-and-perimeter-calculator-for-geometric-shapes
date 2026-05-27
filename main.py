@@ -16,7 +16,11 @@ def main():
         for shape in all_shapes:
            print(shape)
            print("***********")
-
+        print(" == Developer Notes == ")
+        for shape in all_shapes:
+           print(repr(shape))
+           print("***********")
+    
     except (ValueError,TypeError) as e:
         print(e) 
 if __name__ == "__main__":
